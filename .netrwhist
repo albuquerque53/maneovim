@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/g4br/.config/nvim'
+let g:netrw_dirhist_3='/home/g4br'
+let g:netrw_dirhist_2='/home/g4br/fonts'
+let g:netrw_dirhist_1='/home/g4br'
