@@ -36,6 +36,9 @@ Plug 'peitalin/vim-jsx-typescript'
 "Multiple Cursors
 Plug 'terryma/vim-multiple-cursors'
 
+"Auto Pairs
+Plug            'jiangmiao/auto-pairs'
+
 "Emmet HTML
 Plug 'mattn/emmet-vim'
 
@@ -95,12 +98,6 @@ set             tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 let 		mapleader="\\"
 nnoremap 	<leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap 	<leader>es :source ~/.config/nvim/init.vim<cr>
-ino             " ""<left>
-ino             ' ''<left>
-ino             ( ()<left>
-ino             [ []<left>
-ino             { {}<left>
-ino             {<CR> {<CR>}<ESC>
 imap            <leader>ll <esc>$i<right>
 imap            <leader>hh <esc>0i
 imap            <leader><CR> <esc>$i<right><CR>
