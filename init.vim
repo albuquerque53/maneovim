@@ -92,7 +92,7 @@ set 		modifiable
 set             tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 
 " Keybinds/Macros config
-let 		mapleader="\<space>"
+let 		mapleader="\\"
 nnoremap 	<leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap 	<leader>es :source ~/.config/nvim/init.vim<cr>
 ino             " ""<left>
@@ -104,7 +104,7 @@ ino             {<CR> {<CR>}<ESC>
 imap            <leader>ll <esc>$i<right>
 imap            <leader>hh <esc>0i
 imap            <leader><CR> <esc>$i<right><CR>
-nnoremap        <leader>;; <esc>$i<right>;<ESC>
+nnoremap        <leader>; <esc>$i<right>;<ESC>
 vmap            <leader>d "_di
 nno             yyd yyP<down>
 nno             cc 0i<DEL><DEL>//<ESC> $
