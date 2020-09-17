@@ -21,18 +21,12 @@ Plug 	        'preservim/nerdtree'
 Plug 	        'ryanoasis/vim-devicons'
 Plug            'Xuyuanp/nerdtree-git-plugin'
 
-"Space Dark Theme
-Plug 	        'liuchengxu/space-vim-dark'
-
-"Palenight
-Plug            'drewtempelmeyer/palenight.vim'
-
-"Dracula Theme
-Plug 'dracula/vim', { 'as': 'dracula' }
-
 "Vim Powerline (and themes)
 Plug 	        'vim-airline/vim-airline'
 Plug 	        'vim-airline/vim-airline-themes'
+
+"OneDark Theme
+Plug            'joshdick/onedark.vim'
 
 "JavaScript & TypeScript
 Plug 'pangloss/vim-javascript'
@@ -67,20 +61,19 @@ call 	        plug#end()
 " 
 " =-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-" Palenight Theme
-set             background=dark
-colorscheme     dracula
-
-""let             g:lightline = { 'colorscheme': 'dracula' }
+" OneDark Theme
 set             termguicolors
+set             background=dark
+syntax          on
+colorscheme     onedark
 
-" Default themes configuration
-hi              Normal ctermbg=NONE guibg=NONE
-hi              LineNr ctermbg=NONE guibg=NONE
-hi              SignColumn ctermbg=NONE guibg=NONE
+"Default themes configuration (Disabled)
+"hi              Normal ctermbg=NONE guibg=NONE
+"hi              LineNr ctermbg=NONE guibg=NONE
+"hi              SignColumn ctermbg=NONE guibg=NONE
 
 " Vim Airline
-let             g:airline_theme = "base16_nord"
+let             g:airline_theme = "onedark"
 
 
 " =-=-=-=-=-=-=-=-=-=-=-=-=-=
